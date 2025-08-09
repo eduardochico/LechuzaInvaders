@@ -33,4 +33,12 @@ El proyecto está optimizado como **PWA** (Progressive Web App), con controles t
 ---
 
 ## 📂 Estructura de archivos
-
+├── index.html # Juego y lógica principal
+├── manifest.webmanifest # Configuración PWA
+├── sw.js # Service Worker
+├── assets/
+│ ├── owl.svg # Sprite de la lechuza
+│ ├── eagle.svg # Sprite del águila
+└── icons/
+├── icon-192.png # Icono para PWA (192x192)
+└── icon-512.png # Icono para PWA (512x512)
